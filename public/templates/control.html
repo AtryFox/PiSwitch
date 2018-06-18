@@ -1,12 +1,14 @@
 <div class="card">
 	<div class="card-body">
-		<h5 class="card-title">{{name}}</h5>
-		{{#description}}<h6 class="card-subtitle">{{description}}</h6>{{/description}}
+		<h5 class="card-title">{{title}}{{#icon}}<span class="float-right"><i class="fas fa-fw fa-{{icon}}"></i></span>{{/icon}}</h5>
+		{{#sub}}<h6 class="card-subtitle mb-2 text-muted">{{sub}}</h6>{{/sub}}
+		{{#description}}<p class="card-text">{{description}}</p>{{/description}}
+		
 	</div>
 	<div class="card-footer">
 		<div class="btn-group" role="group">
 		{{#buttons}}
-			<button type="button" class="btn {{#style}}{{style}}{{/style}}{{^style}}btn-primary{{/style}} control-button" code="{{code}}">{{#icon}}<i class="fas fa-fw fa-{{icon}}"></i>{{#lable}} {{/lable}}{{/icon}}{{lable}}</button>
+			<button type="button" class="btn {{#style}}{{style}}{{/style}}{{^style}}btn-primary{{/style}} control-button" code="{{code}}">{{#bt-icon}}<i class="fas fa-fw fa-{{bt-icon}}"></i>{{#lable}} {{/lable}}{{/bt-icon}}{{lable}}</button>
 		{{/buttons}}		
 		</div>
 	</div>

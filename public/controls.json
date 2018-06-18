@@ -1,8 +1,9 @@
 {
 	"controls": [
 		{
-			"name": "Speaker",
-			"description": "Bedroom speakers",
+			"title": "Speaker",
+			"icon": "volume-up",
+			"sub": "Bedroom speakers",
 			"buttons": [
 				{
 					"lable": "On",
@@ -10,39 +11,41 @@
 					"code": 7721996
 				},
 				{
-					"icon": "power-off",
+					"bt-icon": "power-off",
 					"style": "btn-outline-danger",
 					"code": 7721987
 				}
 			]
 		},
 		{
-			"name": "Lights",
+			"title": "Lights",
+			"icon": "lightbulb",
+			"description": "Some longer text describing this actor... Lala text.. so much text.. And it's not stopping... wow, even more to come",
 			"buttons": [
 				{
 					"lable": "On",
-					"code": 7721996
+					"code": 0
 				},
 				{
 					"lable": "Dimm 50",
-					"code": 7721945
+					"code": 0
 				},
 				{
 					"lable": "Off",
-					"code": 7721987
+					"code": 0
 				}
 			]
 		},
 		{
-			"name": "Something else",
+			"title": "Something else",
 			"buttons": [
 				{
 					"lable": "On",
-					"code": 7721996
+					"code": 0
 				},
 				{
 					"lable": "Off",
-					"code": 7721987
+					"code": 0
 				}
 			]
 		}
