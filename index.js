@@ -18,5 +18,5 @@ app.get('/api/sendcode/:code', async function (req, res) {
 app.use(express.static('public'))
 
 app.listen(config.port, function () {
-  console.log(`PiSwitch listening on port ${config.port}!`);
+	console.log(`PiSwitch listening on port ${config.port}!`);
 });
