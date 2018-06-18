@@ -1,0 +1,3 @@
+[submodule "src/rc-switch"]
+	path = src/rc-switch
+	url = https://github.com/sui77/rc-switch

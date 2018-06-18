@@ -1,0 +1,17 @@
+{
+  "name": "piswitch",
+  "version": "1.0.0",
+  "description": "Simple responsive webinterface for dynamically controlling things with 433 MHz signals.",
+  "main": "index.js",
+  "author": "DerAtrox",
+  "license": "MIT",
+  "repository": [
+    {
+      "type": "git",
+      "url": "https://github.com/DerAtrox/PiSwitch.git"
+    }
+  ],
+  "dependencies": {
+    "express": "^4.16.3",
+  }
+}

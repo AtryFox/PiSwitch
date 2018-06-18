@@ -1,0 +1,30 @@
+{
+	"controls": [
+		{
+			"name": "Speaker",
+			"buttons": [
+				{
+					"name": "On",
+					"code": 7721996
+				},
+				{
+					"name": "Off",
+					"code": 7721987
+				}
+			]
+		},
+		{
+			"name": "Lights",
+			"buttons": [
+				{
+					"name": "On",
+					"code": 7721996
+				},
+				{
+					"name": "Off",
+					"code": 7721987
+				}
+			]
+		}
+	]
+}
