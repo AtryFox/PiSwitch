@@ -6,27 +6,12 @@ $(document).ready(() => {
 });
 
 async function loadControls() {
-	await $.getJSON('/controls.json', (res) => {
-		$.each(res.controls, (i, data) => {
-			let html = '';
-			
-			html += '<div class="card">';
-			html += '<div class="card-body">';
-			html += '<h5 class="card-title">' + data.name + '</h5>';
-			html += '</div>';
-			html += '<div class="card-footer">';
-			html += '<div class="btn-group" role="group">'
-			
-			$.each(data.buttons, (i, button) => {
-				html += '<button type="button" class="btn btn-primary control-button" code="' + button.code + '">' + button.name + '</button>'
-			})
-			
-			html += '</div>';
-			html += '</div>';
-			html += '</div>';
-			
-			$('#controls').append(html);
-		});
+	const template = await $.get('/templates/control.html');
+	
+	const res = await $.getJSON('/controls.json');
+	
+	$.each(res.controls, (i, data) => {		
+		$('#controls').append(Mustache.render(template, data));
 	});
 	
 	

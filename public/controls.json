@@ -2,13 +2,16 @@
 	"controls": [
 		{
 			"name": "Speaker",
+			"description": "Bedroom speakers",
 			"buttons": [
 				{
-					"name": "On",
+					"lable": "On",
+					"style": "btn-success",
 					"code": 7721996
 				},
 				{
-					"name": "Off",
+					"icon": "power-off",
+					"style": "btn-outline-danger",
 					"code": 7721987
 				}
 			]
@@ -17,11 +20,28 @@
 			"name": "Lights",
 			"buttons": [
 				{
-					"name": "On",
+					"lable": "On",
 					"code": 7721996
 				},
 				{
-					"name": "Off",
+					"lable": "Dimm 50",
+					"code": 7721945
+				},
+				{
+					"lable": "Off",
+					"code": 7721987
+				}
+			]
+		},
+		{
+			"name": "Something else",
+			"buttons": [
+				{
+					"lable": "On",
+					"code": 7721996
+				},
+				{
+					"lable": "Off",
 					"code": 7721987
 				}
 			]
