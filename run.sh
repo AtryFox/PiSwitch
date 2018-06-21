@@ -2,6 +2,9 @@
 git reset HEAD --hard
 git pull
 
+git submodule init
+git submodule update
+
 chmod +x ./run.sh
 
 npm install
