@@ -2,7 +2,7 @@
 	"controls": [
 		{
 			"title": "Speaker",
-			"icon": "volume-up",
+			"icon": "fas fa-volume-up",
 			"sub": "Bedroom speakers",
 			"buttons": [
 				{
@@ -11,7 +11,7 @@
 					"code": 7721996
 				},
 				{
-					"bt-icon": "power-off",
+					"bt-icon": "fas fa-power-off",
 					"style": "btn-outline-danger",
 					"code": 7721987
 				}
