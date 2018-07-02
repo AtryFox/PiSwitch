@@ -100,3 +100,6 @@ typings/
 
 # ignore ./bin directory
 bin/
+
+# ignore default controls config
+controls.json
