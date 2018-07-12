@@ -8,12 +8,22 @@
 				{
 					"lable": "On",
 					"style": "btn-success",
-					"code": 7721996
+					"actions": [
+						{
+							"action": "rcswitch",
+							"data": 7721996
+						}
+					]
 				},
 				{
 					"bt-icon": "fas fa-power-off",
 					"style": "btn-outline-danger",
-					"code": 7721987
+					"actions": [
+						{
+							"action": "rcswitch",
+							"data": 7721987
+						}
+					]
 				}
 			]
 		},
@@ -24,15 +34,30 @@
 			"buttons": [
 				{
 					"lable": "On",
-					"code": 0
+					"actions": [
+						{
+							"action": "rcswitch",
+							"data": 0
+						}
+					]
 				},
 				{
 					"lable": "Dimm 50",
-					"code": 0
+					"actions": [
+						{
+							"action": "rcswitch",
+							"data": 0
+						}
+					]
 				},
 				{
 					"lable": "Off",
-					"code": 0
+					"actions": [
+						{
+							"action": "rcswitch",
+							"data": 0
+						}
+					]
 				}
 			]
 		},
@@ -41,11 +66,21 @@
 			"buttons": [
 				{
 					"lable": "On",
-					"code": 0
+					"actions": [
+						{
+							"action": "rcswitch",
+							"data": 0
+						}
+					]
 				},
 				{
 					"lable": "Off",
-					"code": 0
+					"actions": [
+						{
+							"action": "rcswitch",
+							"data": 0
+						}
+					]
 				}
 			]
 		}
