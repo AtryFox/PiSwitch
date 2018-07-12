@@ -29,7 +29,7 @@
 		},
 		{
 			"title": "Lights",
-			"icon": "lightbulb",
+			"icon": "fas fa-lightbulb",
 			"description": "Some longer text describing this actor... Lala text.. so much text.. And it's not stopping... wow, even more to come",
 			"buttons": [
 				{
