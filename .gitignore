@@ -101,5 +101,16 @@ typings/
 # ignore ./bin directory
 bin/
 
+# ignore ./src/custom
+./src/custom
+
 # ignore default controls config
 controls.json
+
+# ignore custom config files
+config/*
+!config/default-config.js
+
+# ignore custom actions
+actions/*
+!actions/rcswitch.js

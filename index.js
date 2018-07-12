@@ -1,9 +1,6 @@
 const express = require('express');
 const app = express();
 
-const Data = require('./data.js');
-const data = new Data();
-
 const config = require('./config/config.js');
 
 app.get('/', async function (req, res) {
@@ -11,8 +8,9 @@ app.get('/', async function (req, res) {
 	res.sendFile(__dirname + '/views/main.html');
 });
 
-app.get('/api/sendcode/:code', async function (req, res) {
-	res.json(await data.sendCode(req.params.code));
+app.get('/api/:action/:data', async function (req, res) {
+	const action = require(`./actions/${req.params.action}.js`);
+	res.json(await action.run(req.params.data));
 });
 
 app.use(express.static('public'))
