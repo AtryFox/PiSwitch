@@ -4,9 +4,6 @@ PiSwitch
 Simple web-based remote control for custom actions, like switching on or off radio controlled sockets (433MHz) or external APIs.
 
 
-
-Documentation is coming soon...
-
 ## Preview ##
 <img src="https://raw.githubusercontent.com/DerAtrox/PiSwitch/12ed59b2902935116510a72e707af9de039ad84a/preview.png">
 
@@ -55,7 +52,7 @@ Each of the buttons of each control can be configured to perform different actio
 One control combines multiple buttons to one "object".
 For example a radio controlled outlet would be one control with two buttons: "Turn on" and "Turn off".
 
-For better understanding of this configuration, I also added a [graphic](some link coming soon) describing, what is what.
+For better understanding of this configuration, I also added a [graphic](https://raw.githubusercontent.com/DerAtrox/PiSwitch/77f04c26caf64eaf834ac05b51063ca1f509278e/preview_desc.png) describing, what is what.
 
 #### Properties ####
 |Property                   |Optional |Description
