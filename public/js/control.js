@@ -24,10 +24,17 @@ async function loadControls() {
 	$('.control-button').on('click', function() {
 		const actions = JSON.parse($(this).attr('actions'));
 		
-		$.each(actions, (i, action) => {
-			$.get(`/api/${action.action}/${action.data}`, (res) => {
-				console.log(res);
+		$.each(actions, (i, action) => {	
+			$.ajax({
+				url: '/api/action', 
+				type: 'POST', 
+				contentType: 'application/json', 
+				data: JSON.stringify({ action: action.action, data: action.data })
 			});
+		
+			/*$.post('/api/action', , null, 'application/json').done((res) => {
+				console.log(res);
+			});*/
 		});
 		
 		/*$.each(res.controls, (i, data) => {		
