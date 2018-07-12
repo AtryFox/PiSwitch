@@ -1,7 +1,7 @@
 PiSwitch
 ========
 
-Simple web-based remote control for custom actions, like switching on or off radio controlled sockets (433MHz) or external APIs.
+Simple web-based remote control for custom actions, like switching on or off radio controlled sockets or external APIs.
 
 
 ## Preview ##
