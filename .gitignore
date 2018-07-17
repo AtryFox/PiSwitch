@@ -114,3 +114,4 @@ config/*
 # ignore custom actions
 actions/*
 !actions/rcswitch.js
+!actions/webrequest.js

@@ -88,10 +88,13 @@ To update PiSwitch, just run the start script (`run.sh`) again.
 
 ## Actions ##
 
-Actions are scripts which are executed when a button is pressed. By default there is only one action `rcswitch`, which can send a code via an 433 MHz transmitter. More are planned in the future.
+Actions are scripts which are executed when a button is pressed. By default there are only two actions, though more actions are planned in the future.
+
+- `rcswitch` - sends a code via an 433 MHz transmitter
+- `webrequest` - sends a simple web request to for example another API
 
 ### Adding your own Actions ###
-*Documentation coming soon..*
+*Detailed documentation coming soon.. *
 
 
 ## Libraries, Frameworks, Fonts and APIs ##
@@ -99,12 +102,9 @@ This project is made possible by these awesome libraries, frameworks, fonts and 
 
 - [Node.js](https://nodejs.org/) - Node.js JavaScript runtime
 - [PM2](https://pm2.keymetrics.io/) - Node.js Production Process Manager with a built-in Load
-
 - [Express](http://expressjs.com/de/) - Fast, unopinionated, minimalist web framework for node
 - [Wiring Pi](http://wiringpi.com/) - PIN based GPIO access library for all versions of the Raspberry Pi
 - [Bootstrap](https://getbootstrap.com/) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web
 - [jQuery](https://jquery.com/) - jQuery JavaScript Library
-
-
 - [Font Awesome](https://fontawesome.com/) - The iconic SVG, font, and CSS toolkit
 - [Google Fonts](https://fonts.google.com/) - Making the web more beautiful, fast, and open through great typography
