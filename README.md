@@ -94,7 +94,7 @@ Actions are scripts which are executed when a button is pressed. By default ther
 - `webrequest` - sends a simple web request to for example another API
 
 ### Adding your own Actions ###
-*Detailed documentation coming soon.. *
+*Detailed documentation coming soon..*
 
 
 ## Libraries, Frameworks, Fonts and APIs ##
